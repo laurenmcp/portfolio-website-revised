@@ -1,0 +1,280 @@
+@import url(https://fonts.google.com/download?family=Julius%20Sans%20One);
+@import url(https://fonts.google.com/download?family=Archivo%20Narrow);
+@import url(https://fonts.google.com/download?family=Source%20Sans%20Pro);
+
+/*W3 CSS Parralax template*/
+.bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+    .bgimg-1 {
+        background-image: url("images/bass.jpg");
+        min-height: 400px;
+    }
+
+    .bgimg-2 {
+        /*Photo by Christopher Gower on Unsplash*/
+        background-image: url('images/christopher-gower-m_HRfLhgABo-unsplash.jpg');
+        min-height: 400px;
+    }
+
+    .bgimg-3 {
+        background-image: url('images/trees.jpg');
+        min-height: 400px;
+    }
+
+    .bgimg-4 {
+        background-image: url('images/tulips.jpg');
+        min-height: 400px;
+    }
+
+    .bgimg-5 {
+    background-image: url('images/resistancelarger.png');
+      /* background-color: #0389A6; */
+      min-height: 400px;
+    }
+
+    .bgimg-6 {
+        background-color: #F2811D;
+        min-height: 400px;
+     
+      }
+
+    .w3-wide {letter-spacing: 10px;}
+    .w3-hover-opacity {cursor: pointer;}
+
+    /* Turn off parallax scrolling for tablets and phones */
+    @media only screen and (max-device-width: 1600px) {
+    .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4 {
+    background-attachment: scroll;
+    min-height: 400px;
+    }
+    }
+/*HEADER STYLES*/
+h1 {
+    font-family: "Julius Sans One", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 80px;
+    margin: 10px;
+    
+    color: #000000;
+}
+
+.aboutSub {
+    color: #003540;
+}
+
+h2 {
+    font-family: "Archivo Narrow", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 48px;
+    margin: 10px;
+    
+    color: #000000;
+}
+
+h3 {
+    font-family: "Julius Sans One", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 10px;
+    
+    color: #000000;
+}
+
+h4 {
+    font-family: "Archivo Narrow", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: ;
+    font-size: 32px;
+    margin: 10px;
+    
+    color: #000000;
+}
+
+h5 {
+    font-family: "Julius Sans One", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    margin: 10px;
+    color: #000000;
+}
+
+ul {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+    color: #000000;
+}
+
+li {
+    font-family: "Source Sans Pro",Arial, Helvetica, sans-serif ;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+    color: #000000;
+}
+
+p {
+    font-family: "Source Sans Pro", Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+    
+    color: #000000;
+}
+
+strong {
+    color: #003540;
+    font-weight: 400;
+}
+
+a {
+    font-family: "Source Sans Pro", Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    margin: 10px;
+    color:#000;
+    font-style: normal;
+    text-decoration: none;
+}
+
+a, .navBar{
+    color:white;
+}
+
+
+
+/*CUSTOM SECTION FORMATTING*/
+body {
+    background-color: white;
+}
+
+.navPadding {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-top: .1em;
+    padding-bottom: .1em;
+}
+
+.navButton {
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 5px;
+    transition: all .5s;
+}
+
+.navButton:hover{
+    color:#000!important;
+    background-color:#ccc!important
+}
+
+.footer {
+    background-color:#004A59
+}
+
+.whitespace {
+ height: 200px;
+}
+
+.top{
+    background-color: #004A59;
+  }
+
+.portfolio {
+    background-color: white;
+}
+
+.portBox {
+    position: relative;
+    display: inline-block;
+}
+
+.portBox .text {
+    position:absolute;
+    z-index: 1000;
+    margin-top: 40%;
+}
+
+.bbground{
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 5px;
+    transition: all .5s;
+    border-style: solid;
+    border-color: #004A59;
+    border-width: 3px;
+    background-color: white;
+}
+    
+.bbground:hover{
+    color:#ccc!important;
+    background-color:#004A59!important
+}
+
+.btext{
+    color: black;
+}
+
+.navBar{
+    background-color: #003540;
+}
+
+.mySlides {display: none}
+
+.columnimage {
+    size: 70%;
+}
+
+/*SPECIFIC TEXT PIECES*/
+.poem1 {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.poem {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: right;
+}
+
+.role{
+    color: #004A59;
+  }
+
+.poem .title {
+    font-style: italic;
+    color:#004A59;
+}
+
+.poem1 .title {
+    font-style: italic;
+    text-align: left;
+    color:#004A59;
+}
+
+
+
+
+/* color theme 
+blue: #5B7BA6;
+yellow: #F2BC1B;
+pink: #F2D8C9; 
+orange: #F27052; 
+red: #F24738;
+
+/* Color Theme Swatches in Hex 
+{ color: #C7CCD9; }
+ { color: #3F7373; }
+{ color: #A68F72; }
+ { color: #BF754B; }
+{ color: #732B1A; }
+*/
+
+
